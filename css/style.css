@@ -1,0 +1,43 @@
+body{
+	font-family:arial;
+	font-size:15px;
+	line-height:1.6em;
+}
+
+li{
+	list-style:none;	
+}
+
+a{
+	text-decoration:none;
+}
+
+.container{
+	width:60%;
+	margin:0 auto;
+	overflow:auto;
+	padding-bottom:10px;
+}
+
+header{
+	border-bottom:3px #f4f4f4 solid;
+}
+
+footer{
+	border-top:3px #f4f4f4 solid;
+	text-align:center;
+	padding-top:5px;
+}
+
+main{
+	padding-bottom:20px;
+}
+
+a.start{
+	display:inline-block;
+	color:#6666;
+	background:#f4f4f4;
+	border:1px dotted #ccc;
+	padding: 6px 13px;
+	box-shadow: 3px 3px 5px gray;
+}
