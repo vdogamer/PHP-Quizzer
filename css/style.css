@@ -17,6 +17,7 @@ a{
 	margin:0 auto;
 	overflow:auto;
 	padding-bottom:10px;
+	
 }
 
 header{
@@ -40,4 +41,21 @@ a.start{
 	border:1px dotted #ccc;
 	padding: 6px 13px;
 	box-shadow: 3px 3px 5px gray;
+}
+
+.submit{
+	display:inline-block;
+	color:#6666;
+	background:#f4f4f4;
+	border:1px dotted #ccc;
+	padding: 6px 13px;
+	box-shadow: 3px 3px 5px gray;
+}
+
+.current{
+	padding:10px;
+	background:#f4f4f4;
+	border:#ccc dotted 1px;
+	
+	margin:20px 0 10px 0;	
 }
