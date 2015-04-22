@@ -42,13 +42,13 @@
 			<div class="container">
 				<div class="current">Question 1 of 5</div>
 				<p class="question">
-					<?php echo $question['text'] ?>
+					<?php echo $question['text']; ?>
 				</p>
 				<form method="post" action="process.php">
 					<ul class="choices">
 						<?php while($row = $choices->fetch_assoc()): ?>
-							<li><input name="choice" type="radio" value="<?php echo $row['id']; ?>" /></li>
-						<? endwhile; ?>						
+							<li><input name="choice" type="radio" value="<?php echo $row['id']; ?>" /><?php echo $row['text']; ?></li>
+						<?php endwhile; ?>						
 					</ul>
 					<input class="submit" type="submit" value="submit" />
 					<input type="hidden" name="number" value="<?php echo $number; ?>" />
