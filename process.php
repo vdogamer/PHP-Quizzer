@@ -11,7 +11,7 @@
 		$selected_choice = $_POST['choice'];     // choice is from the DOM
 
 		// redirect the user to the next question
-		$next = $number++;
+		$next = $number+1;
 
 		/*
 		*	Get total number of questions
@@ -46,6 +46,10 @@
 			$_SESSION['score']++;
 		}
 
+		//echo $number;
+		//echo $total;
+		//die();
+
 		// Check to see if this is the last question
 		if($number == $total){
 
@@ -53,7 +57,7 @@
 			exit();
 
 		} else {
-			header("Location: question.php?n=".$next)
+			header("Location: question.php?n=".$next);
 		}
 	}
 ?>
