@@ -15,3 +15,5 @@
 		printf("Connect failed: %s\n", $mysqli->connect_error);
 		exit();
 	}
+
+?>
